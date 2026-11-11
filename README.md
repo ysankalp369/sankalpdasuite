@@ -89,3 +89,8 @@ docs/DESIGN.md     analysis, clause matrix, architecture
 
 Generated documents are drafts for detailed advocate review. Project facts, applicable law, stamp duty
 and statutory requirements must be verified before execution and registration.
+
+## Licence
+
+Proprietary and confidential – all rights reserved. See [LICENSE](LICENSE). No use, copying or
+distribution without the prior written permission of the copyright holders.
