@@ -218,3 +218,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------- DA Suite (project-specific)
+# Runtime data: database, encrypted documents, storage key, admin credentials
+instance/
+
+# Test outputs (contain reviewed copies of real reference agreements)
+tests/e2e_output/
+
+# Never commit real agreements or project documents
+*.doc
+reference_library/
+real_projects/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local tooling
+.claude/
+.env

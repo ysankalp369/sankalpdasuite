@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redevelopment DA Suite</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div id="login" class="login hidden">
+  <form class="login-card" id="loginForm">
+    <div class="brand-lg">DA<span>Suite</span></div>
+    <p class="muted">Adv. Santosh Yadav Associates · Sankalp PMC</p>
+    <label>Username<input name="username" autocomplete="username" required></label>
+    <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+    <button class="btn primary" type="submit">Sign in</button>
+    <p class="err" id="loginErr"></p>
+  </form>
+</div>
+<div id="app" class="hidden">
+  <aside class="side">
+    <div class="brand">DA<span>Suite</span></div>
+    <nav id="nav">
+      <a href="#/">Dashboard</a>
+      <div class="navh">Draft</div>
+      <a href="#/new">Create New DA</a>
+      <a href="#/projects">Project Database</a>
+      <a href="#/annexures">Annexure Generator</a>
+      <a href="#/pending">Pending Information</a>
+      <div class="navh">Review</div>
+      <a href="#/review">Review Existing DA</a>
+      <a href="#/compare">Document Comparison</a>
+      <div class="navh">Knowledge</div>
+      <a href="#/clauses">Clause Library</a>
+      <a href="#/references">Reference Agreements</a>
+      <a href="#/legal">Legal Research</a>
+      <div class="navh">Records</div>
+      <a href="#/generated">Generated Documents</a>
+      <a href="#/history">Project History</a>
+      <a href="#/admin" id="navAdmin">Users &amp; Roles</a>
+    </nav>
+    <div class="who" id="who"></div>
+  </aside>
+  <main id="main"></main>
+</div>
+<div id="toast" class="toast hidden"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

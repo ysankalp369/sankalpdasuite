@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy>=2.0
+python-docx
+lxml
+pdfplumber
+pymupdf
+openpyxl
+pillow
+anthropic
+rapidocr-onnxruntime
+cryptography
+defusedxml
+# For PostgreSQL: psycopg[binary] and set DATABASE_URL=postgresql+psycopg://user:pass@host/db
